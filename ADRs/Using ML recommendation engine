@@ -1,0 +1,17 @@
+# Using ML recommendation engine
+
+## Context 
+Candidates need recommendations of services they can avail themselves. It should be based on their previous selections/interests. We could use a tagging based system, We would ask the user which categories they are interested in. Or use a ML system that predicts which service a user is most interested in based on past experience.
+
+## Decision
+We decided to use a ML based approach. This is because the system will improve over time. The tagging based approach would have a fixed performance. With better recommendations the users would be able to find more relevant services. The ML Algorithm architechture will be similar to the one used by Netflix. We would need to update the model every two weeks with new user data to ensure it doesn't go out of date.
+
+## Pros vs Cons
+
+### Pros
+- System improves as the user base grows
+- With current advances in the field training the algorithm regularly should be feasible
+  
+### Cons
+- Needs some ML knowledge to implement
+- The Algorithm is a black box, with some niche techniques to give limited insight into it's working
