@@ -1,4 +1,4 @@
-# REST
+# API server architectural style
 
 ## Context
 We need a way to communicate between API server and the client. We could use REST, GraphQL or gRPC
